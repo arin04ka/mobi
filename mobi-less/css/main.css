@@ -1,0 +1,269 @@
+html {
+    font-size: 10px;
+}
+img {
+    max-width: 100%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* =Footer */
+.footer {
+    font-size: 1.6rem;
+    color: #666666;
+    text-align: center;
+    padding: 3.5rem 5rem;
+}
+.footer p {
+    margin: 0;
+}
+/* Footer */
+
+/* =Content */
+.content {
+    background: #333333;
+}
+.content-inner {
+    padding: 3.5rem 5rem;
+    color: #aaa;
+}
+.content-inner > * {
+    margin: 0;
+}
+.content-img {
+    float: left;
+    margin: 3.5rem 10.7rem 0 0;
+}
+.content-inner h1 {
+    font-size: 4.2rem;
+    margin-bottom: 1.5rem;
+}
+.content-inner h2 {
+    font-size: 2.6rem;
+    margin-bottom: 3.5rem;
+}
+.content-inner p {
+    font-size: 1.5rem;
+    line-height: 1.733;
+    margin-top: 3.5rem;
+}
+/* Content */
+
+/* =Features */
+.features-list {
+    padding: 6.3rem 0 4.7rem;
+}
+.features-list li,
+.features-list li > * {
+    margin: 0;
+}
+.features-list li {
+    list-style: none;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.features-list .features-img {
+    width: 18.6rem;
+    height: 18.6rem;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+.features-list li:first-child .features-img {
+    background: #5094f2;
+}
+.image-pan{
+    background: url(../img/sprite.png) no-repeat 50% 50%;
+    width: 7.7rem;
+    height: 10.8rem;
+    background-position: -12.7rem 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.features-list li:nth-child(2) .features-img {
+    background: #d94748;
+}
+.image-desktop{
+    background: url(../img/sprite.png) no-repeat 50% 50%;
+    width: 9.5rem;
+    height: 8.2rem;
+    background-position: -2.5rem -9.8rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.features-list li:last-child .features-img {
+    background: #ebbb11;
+}
+.image-cart{
+    background: url(../img/sprite.png) no-repeat 50% 50%;
+    width: 9.8rem;
+    height: 8.9rem;
+    background-position: -2.7rem 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.features-list h3 {
+    color: #5094f2;
+    font-size: 2rem;
+    margin: 2.9rem 3rem .9rem 3rem;
+}
+.features-list p {
+    color: #666666;
+    font-size: 1.5rem;
+    line-height: 1.733;
+    margin: .9rem 3rem 0 3rem;
+}
+/* Features */
+
+/* =Carousel */
+.carousel {
+    background: url(../img/battlement.png) 0 0, url(../img/carousel-background.jpg) 0 0 fixed;
+    background-size: 1.2rem 0.8rem, 100% 100%;
+    background-repeat: repeat-x, no-repeat;
+    background-position: 0 100%, 0 0;
+    overflow: hidden;
+    max-height: 48.8rem;
+}
+
+.carousel,
+.carousel a {
+    color: #fff;
+}
+.carousel-inner {
+    padding: 4rem 0 1rem 0;
+    position: relative;
+}
+.carousel-slides,
+.carousel-slides li,
+.carousel-slides li > div > * {
+    margin: 0;
+    padding: 0;
+}
+.carousel-slides li {
+    list-style: none;
+    overflow: hidden;
+}
+.carousel-img {
+    float: left;
+    width: 40%;
+}
+.carousel-content {
+    float: right;
+    width: 50%;
+    margin-top: 12%;
+}
+.carousel-slides h3 {
+    font-size: 4.2rem;
+}
+.carousel-slides p {
+    font-size: 2.6rem;
+    line-height: 1.73;
+}
+.carousel-slides .carousel-button {
+    font-size: 2.2rem;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3.4rem;
+    padding: 1.1rem 1.1rem .9rem 4.5rem;
+    background: #5094f2;
+    /*transition: background .3s ease-in, color .5s ease-in;*/
+    border-radius: 0.3rem;
+    position: relative;
+}
+.carousel-slides .carousel-button:before {
+    content: '';
+    width: 2.7rem;
+    height: 2.7rem;
+    background: #5094f2 url(../img/sprite.png) no-repeat 0.2rem -7.5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 1.1rem;
+    top: 50%;
+    margin-top: -1.35rem;
+}
+.carousel-button:hover {
+    color: #5094f2;
+    background: #fff;
+}
+.carousel-control {
+    position: absolute;
+    width: 2.5rem;
+    height: 6.3rem;
+    top: 50%;
+    margin-top: -3.2rem;
+    background: url('../img/sprite.png') no-repeat 0 0;
+    cursor: pointer;
+}
+.carousel-prev {
+    margin-left: -5rem;
+}
+.carousel-next {
+    right: 0;
+    margin-right: -5rem;
+    transform: rotate(180deg);
+}
+/* Carousel */
+
+/* =Header */
+.header {
+    padding: 2.5rem 0 0 0;
+    min-height: 6.5rem;
+}
+.header-logo {
+    float: left;
+    width: 15.5rem;
+}
+.header-menu,
+.header-menu li {
+    list-style: none;
+    margin: 0;
+}
+.header-menu {
+    float: right;
+    font-size: 0;
+}
+.header-menu li {
+    margin-left: 4rem;
+    display: inline-block;
+    border-bottom: solid 0.3rem #fff;
+}
+.header-menu li.active {
+    border-color: #5094f2;
+}
+.header-menu a {
+    color: #6c6c6c;
+    font-size: 2rem;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 2.5rem 0 1.7rem 0;
+}
+.header-menu a:hover {
+    color: #5094f2;
+}
+/* Header */
+
+/* =Containers */
+.header,
+.carousel-inner,
+.features-list,
+.footer,
+.content-inner {
+    max-width: 96.7rem;
+    margin: auto;
+}
+/* Containers */

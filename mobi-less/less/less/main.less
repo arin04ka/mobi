@@ -1,0 +1,72 @@
+@import 'typography.less';
+@import 'colors.less';
+
+
+html {
+    font-size: @font-size-base;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: @font-weight;
+}
+.footer {
+    font-size: @font-size-base*1.6;
+    color: @footer-color-text;
+}
+.content {
+    background: @content-background;
+}
+.content-inner {
+    color: @content-inner;
+}
+.content-inner h1 {
+    font-size: @font-size-base*4.2;
+}
+.content-inner h2 {
+    font-size: @font-size-base*2.6;
+}
+.content-inner p {
+    font-size: @font-size-base*1.5;
+}
+.features-list li:first-child .features-img {
+    background: @features-list-first-child-background;
+}
+.features-list li:nth-child(2) .features-img {
+    background: @features-list-second-child-background;
+}
+.features-list li:last-child .features-img {
+    background: @features-list-last-child-background;
+}
+.features-list h3 {
+    color: @features-list-first-child-background;
+    font-size: @font-size-base*2;
+}
+.features-list p {
+    color: @footer-color-text;
+    font-size: @font-size-base*1.5;
+}
+.carousel a {
+    color: @content-inner;
+}
+.carousel-slides h3 {
+    font-size: @font-size-base*4.2;
+}
+.carousel-slides p {
+    font-size: @font-size-base*2.6;
+}
+.carousel-slides .carousel-button {
+    font-size: @font-size-base*2.2;
+    background: @features-list-first-child-background;
+}
+.carousel-button:hover {
+    color: @features-list-first-child-background;
+    background: @carousel-a;
+}
+.header-menu li.active {
+    border-color: @features-list-first-child-background;
+}
+.header-menu a {
+    color: @header-menu-a-color;
+}
+.header-menu a:hover {
+    color: @features-list-first-child-background;
+}

@@ -1,0 +1,27 @@
+html {
+  font-size: 10px;
+}
+body {
+  color: brown;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+h1,
+h2 {
+  color: maroon;
+}
+button.primary {
+  background: blue;
+  color: #ffffff;
+}
+button.alternative {
+  background: orange;
+  color: #ffffff;
+}
+main {
+  padding: 1rem;
+  background: #eeeeee;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
